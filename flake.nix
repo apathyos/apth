@@ -1,8 +1,6 @@
 {
   description = "Inter-process communication app for apathyos desktop environment";
 
-  inputs.self.submodules = true;
-
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
   };
